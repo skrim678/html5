@@ -1,0 +1,32 @@
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+ *{
+    height: 500px;
+ } 
+ .container-1{
+    margin-bottom: 10px;
+ }
+.item-1{
+    background-color: rgb(255, 156, 17);
+
+}
+.item-2{
+    background-color: purple;
+}
+.item-3{
+    background-color: rgba(81, 250, 137, 0.688);
+}
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 10px;
+    justify-content: center;
+  
+}
+
+
+    
